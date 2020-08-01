@@ -1,0 +1,34 @@
+ ### 同步赋值语句
+ ```python
+t=x
+x=y
+y=t
+```
+上面语句等价于
+```python
+x,y=y,x
+```
+
+### 数组
+```python
+arrry=['a','b','c']
+
+arrry[-1]=='c'
+# -1代表倒数第一个
+# arrry[0:2] 表示从[0,2)区间
+```
+### print输出
+```python
+n1 = input("first:")
+n2 = input("second:")
+avg = (float(n1) + float(n2)) / 2
+print("result:%f" % avg)
+print("result:", avg)
+print("result:{}".format(avg))
+```
+输出内容：
+first:1
+second:3
+result:2.000000
+result: 2.0
+result:2.0
